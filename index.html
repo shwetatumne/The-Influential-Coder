@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Influential Coder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(118, 118, 233);
+            color: antiquewhite;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(37, 37, 233);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(255, 11, 64);
+            font-size: 1.04rem;
+        }
+        main hr{
+            border: 0;
+            background: blue;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 70px 0;
+        }
+        .leftSection .buttons{
+            padding: 3px 0;
+        }
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(247, 27, 170);
+            color: white;
+            border: 2px; solid white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(255, 122, 226);
+        }
+        .text-gray{
+            color: rgb(39, 7, 7);
+        }
+
+        #element {
+            color: rgb(255, 122, 226);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+        .secondSection .box {
+            background: blue;
+            width: 60vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: blue;
+            margin: 0 200px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 35px;
+        }
+
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: rgb(18, 18, 201);
+            width: 150px;
+            font-size: 12px;
+        }
+        footer{
+            background-color: blue;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shweta's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Shweta</span>
+                <div>And I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="web.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer
+                    </div>
+                    <div class="vertical-desc">I was working as a Web Developer where in I have build a live website for the company. I have used Wordpress, HTML, CSS, JavaScript to build the website.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="bg.png.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer
+                    </div>
+                    <div class="vertical-desc">I was working as a Web Developer where in I have build a live website for the company. I have used Wordpress, HTML, CSS, JavaScript to build the website.</div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Shweta's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;	www.theinfluentialcoder.com | All right reserved 
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Python Developer', 'Full-Stack Developer', 'Youtuber', 'Content Writer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
